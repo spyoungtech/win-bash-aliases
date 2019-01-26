@@ -9,6 +9,7 @@ install:
 build_script:
   - cmd: .\ci\build.bat
 
+test: off
 
 artifacts:
   - name: dist
