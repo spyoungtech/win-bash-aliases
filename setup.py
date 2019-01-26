@@ -12,14 +12,20 @@ def console_scripts():
     return scripts
 
 
+def long_description():
+    with open('README.md') as f:
+        readme = f.read()
+
 setup(
     name='win-bash-aliases',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/spyoungtech/win-bash-aliases/',
     license='MIT',
     author='Spencer Young',
     author_email='spencer.young@spyoung.com',
     description='Windows WSL bash aliases for cmd and powershell',
+    long_description=long_description(),
+    long_description_content_type="text/markdown",
     packages=['win_aliases'],
     install_requires=[],
     entry_points={

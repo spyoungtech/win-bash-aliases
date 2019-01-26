@@ -13,12 +13,12 @@ aliases = {'vi',
            'tar',
            'curl',
            'man',
-           'lsof',
            'nano',
            'ls',
            'vim',
            'more',
-           'less'
+           'less',
+           'wc'
            }
 
 def make_alias(alias):

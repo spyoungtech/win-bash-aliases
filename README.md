@@ -48,7 +48,6 @@ curl
 grep
 less
 ls
-lsof
 man
 more
 mv
@@ -59,6 +58,7 @@ tail
 tar
 vi
 vim
+wc
 ```
 
 Your favorite unix command not here? Open a PR and I'll add it! It's as simple as adding a string to a list.
