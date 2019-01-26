@@ -16,7 +16,9 @@ aliases = {'vi',
            'lsof',
            'nano',
            'ls',
-           'vim'
+           'vim',
+           'more',
+           'less'
            }
 
 def make_alias(alias):
