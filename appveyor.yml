@@ -1,0 +1,29 @@
+artifacts:
+  - name: dist
+    path: dist\*
+
+
+install:
+  - cmd: .\ci\install.bat
+
+build_script:
+  - cmd: .\ci\build.bat
+
+
+artifacts:
+  - name: dist
+    path: dist\*
+
+
+deploy_script:
+  - ps: |
+      if ($env:APPVEYOR_REPO_TAG -eq "true") {
+        py -3.7 -m venv deploy_venv
+        .\deploy_venv\Scripts\activate.ps1
+        python -m pip install --upgrade pip
+        pip install --upgrade wheel
+        pip install --upgrade twine
+        twine upload dist\*
+      } else {
+        echo "Skipping Deploy Because this is not a tagged commit"
+      }
