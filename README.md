@@ -15,6 +15,19 @@ operable program or batch file.
 
 Well, no more! Proxy unix commands to WSL from your Windows native shell with `win-bash-aliases`
 
+Mix windows and bash commands
+```
+C:\Users\You>dir | grep bytes
+               6 File(s)          4,195 bytes
+               7 Dir(s)  191,543,554,048 bytes free
+```
+
+vi in cmd and powershell!
+
+![vi](https://raw.githubusercontent.com/spyoungtech/win-bash-aliases/master/docs/_static/vi.gif)
+
+
+
 ## Installation
 
 ### Prerequsites
@@ -33,9 +46,11 @@ cat
 cp
 curl
 grep
+less
 ls
 lsof
 man
+more
 mv
 nano
 rm
@@ -55,6 +70,8 @@ Note: some commands, like `xargs`, are impractical to use because they would exe
 > Is this safe to use in production?
 
 🤷
+
+You should expect some things not to behave perfectly at this stage in development.
 
 > How does it work?
 
