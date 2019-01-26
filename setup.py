@@ -27,5 +27,13 @@ setup(
     },
     classifiers=[
         'Programming Language :: Python',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python',
+        'Environment :: Win32 (MS Windows)',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: Microsoft :: Windows',
+        'Programming Language :: Python :: 3 :: Only',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
