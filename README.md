@@ -1,6 +1,6 @@
 # win-bash-aliases
 
-[![Build status](https://ci.appveyor.com/api/projects/status/05mpg24okk0s6kg1/branch/master?svg=true)](https://ci.appveyor.com/project/spyoungtech/win-aliases/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/1d6m12gd2abb7ndu/branch/master?svg=true)](https://ci.appveyor.com/project/spyoungtech/win-bash-aliases/branch/master)
 [![version](https://img.shields.io/pypi/v/win-bash-aliases.svg?colorB=blue)](https://pypi.org/project/win-aliases/) 
 [![pyversion](https://img.shields.io/pypi/pyversions/win-bash-aliases.svg?)](https://pypi.org/project/win-bash-aliases/) 
 
