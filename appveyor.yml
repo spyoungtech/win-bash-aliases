@@ -1,8 +1,3 @@
-artifacts:
-  - name: dist
-    path: dist\*
-
-
 install:
   - cmd: .\ci\install.bat
 
