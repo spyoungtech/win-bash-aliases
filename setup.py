@@ -13,9 +13,9 @@ def console_scripts():
 
 
 setup(
-    name='win_aliases',
+    name='win-bash-aliases',
     version='0.0.1',
-    url='https://github.com/spyoungtech/win_aliases/',
+    url='https://github.com/spyoungtech/win-bash-aliases/',
     license='MIT',
     author='Spencer Young',
     author_email='spencer.young@spyoung.com',

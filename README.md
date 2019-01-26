@@ -1,4 +1,9 @@
-# win_aliases
+# win-bash-aliases
+
+[![Build status](https://ci.appveyor.com/api/projects/status/05mpg24okk0s6kg1/branch/master?svg=true)](https://ci.appveyor.com/project/spyoungtech/win-aliases/branch/master)
+[![version](https://img.shields.io/pypi/v/win-bash-aliases.svg?colorB=blue)](https://pypi.org/project/win-aliases/) 
+[![pyversion](https://img.shields.io/pypi/pyversions/win-bash-aliases.svg?)](https://pypi.org/project/win-bash-aliases/) 
+
 
 Ever have this problem?
 
@@ -8,7 +13,7 @@ C:\Users\You\> vi foo.txt
 operable program or batch file.
 ```
 
-Well, no more! Proxy unix commands to WSL from your Windows native shell with `win_aliases`
+Well, no more! Proxy unix commands to WSL from your Windows native shell with `win-bash-aliases`
 
 ## Installation
 
@@ -17,7 +22,7 @@ Well, no more! Proxy unix commands to WSL from your Windows native shell with `w
 To use this package you must have Windows Subsystem for Linux installed.
 
 ```
-pip install win_aliases
+py -m pip install win-bash-aliases
 ```
 
 ## Commands available
@@ -44,3 +49,13 @@ vim
 Your favorite unix command not here? Open a PR and I'll add it! It's as simple as adding a string to a list.
 
 Note: some commands, like `xargs`, are impractical to use because they would execute inside the WSL environment.
+
+## FAQ
+
+> Is this safe to use in production?
+
+🤷
+
+> How does it work?
+
+Just console entry points and wrapping around `bash -c`
