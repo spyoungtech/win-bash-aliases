@@ -18,7 +18,7 @@ def long_description():
 
 setup(
     name='win-bash-aliases',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/spyoungtech/win-bash-aliases/',
     license='MIT',
     author='Spencer Young',
