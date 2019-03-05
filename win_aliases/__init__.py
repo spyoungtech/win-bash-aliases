@@ -18,7 +18,14 @@ aliases = {'vi',
            'vim',
            'more',
            'less',
-           'wc'
+           'wc',
+           'dig',
+           'host',
+           'ss',
+           'zip',
+           'unzip',
+           'gzip',
+           'sed',
            }
 
 def make_alias(alias):
